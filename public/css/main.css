@@ -1,0 +1,106 @@
+/* body */
+h1, h2, h3, h4{
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 1.3em;
+}
+.list-group-item{
+    border: 0;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/* body */
+
+.navbar {
+    z-index: 10000;
+}
+
+/* containers */
+.container-fluid{
+    padding: 20px;
+}
+.top-container .card {
+    padding: 30px;
+    width: 70%;
+    position: relative;
+    margin: 90px auto;
+}
+.top-container .card .profile {
+    width: 600px;
+    margin-left: 120px;
+}
+.skill-container .skill-desc {
+    width: 900px;
+    margin: 0 auto;
+}
+/* containers */
+
+/* images */
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.profile-img {
+    position: absolute;
+    top: 18%;
+    left: 17%;
+    z-index: 10000;
+}
+.project-img{
+    width: 100%;
+    height: 250px;
+}
+/* images */
+
+/* row */
+.row {
+    display: flex;
+    align-items: center;
+}
+.row .col-lg-6 {
+    margin-top: 10px;
+}
+/* row */
+
+/* buttons */
+.project-btn {
+    margin: 30px auto;
+    text-align: center;
+}
+/* buttons */
+
+
+
+/* mobile responsive */
+@media only screen and (max-width:1280px){
+    .navbar{
+        z-index: 100000;
+        overflow: hidden;
+    }
+    .container-fluid{
+        position: relative;
+    }
+    .top-container .card {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .top-container .card .profile {
+        width: 100%;
+        margin: 95px auto;
+    }
+    .profile-img {
+        position: absolute;
+        top: 5%;
+        left: 0;
+        z-index: 10000;
+    }
+    .skill-container .skill-desc {
+        width: 100%;
+    }
+}
+/* mobile responsive */
