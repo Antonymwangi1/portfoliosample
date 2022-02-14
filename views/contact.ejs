@@ -1,9 +1,35 @@
-<%- include ("partials/header") %> 
+<%- include ("partials/header") %>
 
 <!-- navbar -->
-<%- include ("partials/navbar") %> 
+<%- include ("partials/navbar") %>
 <!-- navbar -->
 
+<div class="container-fluid">
+    <div class="container contact-container">
+        <div class="card card-body">
+            <p>If you are interested in hiring me for your project please use the form below to get in touch.</p>
+
+            <div>
+                <a href=""><i class="fab fa-linkedin social-icon"></i></a>
+                <a href=""><i class="fab fa-github social-icon"></i></a>
+                <a href=""><i class="fab fa-instagram social-icon"></i></a>
+                <a href=""><i class="fab fa-twitter social-icon"></i></a>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <div class="card card-body">
+            <h3>Send Message</h3>
+            <form>
+                <input type="text" class="form-control" placeholder="Name" required><br>
+                <input type="email" class="form-control" placeholder="Email" required><br>
+                <textarea cols="30" rows="2" placeholder="Message" class="form-control" required></textarea><br>
+                <button class="btn btn-dark send-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 
-<%- include ("partials/footer") %> 
+<%- include ("partials/footer") %>
